@@ -1,16 +1,7 @@
-# GIT Commands and branching concepts
+## GIT Commands and branching concepts
 
-
-FOR SSH KEY RELATED ISSUES:
-https://devmarketer.io/learn/set-ssh-key-github/
-
-https://www.youtube.com/watch?v=H5qNpRGB7Qw&list=PLwAKR305CRO-fenwcN2-IC0rgaB6vaJgD&index=8&t=0s
-
-
----------------------------------------------- GIT COMMANDS------------------------------
-https://www.youtube.com/watch?v=HVsySz-h9r4
-https://www.javacodegeeks.com/2016/07/git-tutorial.html#section_4_1
-
+**GIT COMMANDS**
+```
 git config --global user.name "guptavinod"
 git config --global user.email "gupta.vinodkumar@gmail.com"
 git config --list (in home dir) 
@@ -48,28 +39,14 @@ git branch -d newbranch
 git branch --merged (check now only master remains again)
 git branch -a (check whther gone - local shows only master while remote still has newbranch - hence the next step) 
 git push origin --delete newbranch (delets it from remote repository GIthub as well)
- 
+```
+https://www.youtube.com/watch?v=HVsySz-h9r4
+https://www.javacodegeeks.com/2016/07/git-tutorial.html#section_4_1
 
-##GIT FLOW :
-**Blogs:** 
-Understand GIT Flow using GIT native commands: 
-https://nvie.com/posts/a-successful-git-branching-model/
-Repo: https://github.com/nvie/gitflow
-Blog: https://jeffkreeftmeijer.com/git-flow/
+
+#GIT FLOW
 
 ![Git branching model](images/git-model.png)	
-
-[Reference URL](https://nvie.com/posts/a-successful-git-branching-model/).
-
-Videos:
-https://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow#viewing
-https://vimeo.com/16018419
-   
-
-
-How GIT Commands map to GITFlow commands: 
-https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
-
 
 **The overall flow of Gitflow is:** 
 - A develop branch is created from master
@@ -80,30 +57,19 @@ https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 - If an issue in master is detected a hotfix branch is created from master
 - Once the hotfix is complete it is merged to both develop and master
 
-
-**FOR GIT REBASE & INTERACTIVE REBASE COMMANDS:**
-https://www.themoderncoder.com/a-better-git-workflow-with-rebase/
-
-**GOOD SPRING BLOG & REPOSITORY**
-https://www.baeldung.com/
-
-
+For complete understadning on above model visit following [link --> https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/).
 
 
 **Other reference GIT commands for quick reference**
 ```
 > git checkout -b f1 develop
-
 > git checkout -b f2 develop
 
 > git push --set-upstream origin f1
 
 > git checkout develop
-
 > git merge --no-ff f1
-
 > git push origin develop
-
 
 > git checkout -b release-1.0
 > git commit -am "bug fixing done"
@@ -115,9 +81,37 @@ https://www.baeldung.com/
 > git push origin tag 1.0
 > git push origin master
 
-
 > git checkout develop
 > git merge --no-ff release-1.0
 > git push
 > git branch -d release-1.0
+
 ```
+
+**Blogs:** 
+Understand GIT Flow using GIT native commands: 
+[https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
+[https://jeffkreeftmeijer.com/git-flow/](https://jeffkreeftmeijer.com/git-flow/)
+
+**Repo:**
+[https://github.com/nvie/gitflow](https://github.com/nvie/gitflow)
+
+**Videos:**
+[https://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow#viewing](https://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow#viewing)
+[https://vimeo.com/16018419](https://vimeo.com/16018419)
+
+**FOR SSH KEY RELATED ISSUES:**
+[https://devmarketer.io/learn/set-ssh-key-github/](https://devmarketer.io/learn/set-ssh-key-github/)
+[https://www.youtube.com/watch?v=H5qNpRGB7Qw&list=PLwAKR305CRO-fenwcN2-IC0rgaB6vaJgD&index=8&t=0s](https://www.youtube.com/watch?v=H5qNpRGB7Qw&list=PLwAKR305CRO-fenwcN2-IC0rgaB6vaJgD&index=8&t=0s)
+
+**How GIT Commands map to GITFlow commands:** 
+[https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+
+**FOR GIT REBASE & INTERACTIVE REBASE COMMANDS:**
+[https://www.themoderncoder.com/a-better-git-workflow-with-rebase/](https://www.themoderncoder.com/a-better-git-workflow-with-rebase/)
+
+**GOOD SPRING BLOG & REPOSITORY**
+[https://www.baeldung.com/](https://www.baeldung.com/)
+
+
+
