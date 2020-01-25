@@ -40,11 +40,11 @@ git branch --merged (check now only master remains again)
 git branch -a (check whther gone - local shows only master while remote still has newbranch - hence the next step) 
 git push origin --delete newbranch (delets it from remote repository GIthub as well)
 ```
-https://www.youtube.com/watch?v=HVsySz-h9r4
-https://www.javacodegeeks.com/2016/07/git-tutorial.html#section_4_1
+[https://www.youtube.com/watch?v=HVsySz-h9r4](https://www.youtube.com/watch?v=HVsySz-h9r4)  
+[https://www.javacodegeeks.com/2016/07/git-tutorial.html#section_4_1](https://www.javacodegeeks.com/2016/07/git-tutorial.html#section_4_1)  
 
 
-#GIT FLOW
+##GIT FLOW
 
 ![Git branching model](images/git-model.png)	
 
@@ -57,7 +57,7 @@ https://www.javacodegeeks.com/2016/07/git-tutorial.html#section_4_1
 - If an issue in master is detected a hotfix branch is created from master
 - Once the hotfix is complete it is merged to both develop and master
 
-For complete understadning on above model visit following [link --> https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/).
+For complete understadning on above model visit following [link: https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/).
 
 
 **Other reference GIT commands for quick reference**
@@ -88,29 +88,29 @@ For complete understadning on above model visit following [link --> https://nvie
 
 ```
 
-**Blogs:** 
-Understand GIT Flow using GIT native commands: 
-[https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
-[https://jeffkreeftmeijer.com/git-flow/](https://jeffkreeftmeijer.com/git-flow/)
+**Blogs:**   
+Understand GIT Flow using GIT native commands:   
+[https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)  
+[https://jeffkreeftmeijer.com/git-flow/](https://jeffkreeftmeijer.com/git-flow/)  
 
-**Repo:**
+**Repo:**  
 [https://github.com/nvie/gitflow](https://github.com/nvie/gitflow)
 
-**Videos:**
-[https://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow#viewing](https://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow#viewing)
-[https://vimeo.com/16018419](https://vimeo.com/16018419)
+**Videos:**  
+[https://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow#viewing](https://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow#viewing)  
+[https://vimeo.com/16018419](https://vimeo.com/16018419)  
 
 **FOR SSH KEY RELATED ISSUES:**
-[https://devmarketer.io/learn/set-ssh-key-github/](https://devmarketer.io/learn/set-ssh-key-github/)
-[https://www.youtube.com/watch?v=H5qNpRGB7Qw&list=PLwAKR305CRO-fenwcN2-IC0rgaB6vaJgD&index=8&t=0s](https://www.youtube.com/watch?v=H5qNpRGB7Qw&list=PLwAKR305CRO-fenwcN2-IC0rgaB6vaJgD&index=8&t=0s)
+[https://devmarketer.io/learn/set-ssh-key-github/](https://devmarketer.io/learn/set-ssh-key-github/)  
+[https://www.youtube.com/watch?v=H5qNpRGB7Qw&list=PLwAKR305CRO-fenwcN2-IC0rgaB6vaJgD&index=8&t=0s](https://www.youtube.com/watch?v=H5qNpRGB7Qw&list=PLwAKR305CRO-fenwcN2-IC0rgaB6vaJgD&index=8&t=0s)  
 
-**How GIT Commands map to GITFlow commands:** 
+**How GIT Commands map to GITFlow commands:**   
 [https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
-**FOR GIT REBASE & INTERACTIVE REBASE COMMANDS:**
+**FOR GIT REBASE & INTERACTIVE REBASE COMMANDS:**  
 [https://www.themoderncoder.com/a-better-git-workflow-with-rebase/](https://www.themoderncoder.com/a-better-git-workflow-with-rebase/)
 
-**GOOD SPRING BLOG & REPOSITORY**
+**GOOD SPRING BLOG & REPOSITORY**  
 [https://www.baeldung.com/](https://www.baeldung.com/)
 
 
