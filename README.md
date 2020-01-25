@@ -44,7 +44,7 @@ git push origin --delete newbranch (delets it from remote repository GIthub as w
 [https://www.javacodegeeks.com/2016/07/git-tutorial.html#section_4_1](https://www.javacodegeeks.com/2016/07/git-tutorial.html#section_4_1)  
 
 
-##GIT FLOW
+**GIT FLOW**
 
 ![Git branching model](images/git-model.png)	
 
