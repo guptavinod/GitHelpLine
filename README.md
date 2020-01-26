@@ -88,7 +88,7 @@ For complete understadning on above model visit following [link: https://nvie.co
 
 ```
 
-**SmartGit Tool for using GIT-Hub**
+**SmartGit Tool for using GIT-Hub**  
 URL of video on Version Controlling with SmartGit and Github:  
 [https://www.youtube.com/watch?v=Aj-sZ2JWnj4](https://www.youtube.com/watch?v=Aj-sZ2JWnj4)
 
